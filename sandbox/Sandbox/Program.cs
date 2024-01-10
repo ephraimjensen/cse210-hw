@@ -1,4 +1,5 @@
 using System;
+using System.Runtime.InteropServices;
 
 class Program
 {
@@ -22,5 +23,14 @@ class Program
             Console.WriteLine(" x is greater than y");
 
         }
+        int number = 5;
+        number = number + 3;
+        if (number > 3)
+        {
+            Console.WriteLine("Greater");
+        }
+
+
+
     }
 }
