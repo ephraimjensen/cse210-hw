@@ -1,5 +1,8 @@
 using System;
+using System.IO.Compression;
 using System.Runtime.InteropServices;
+using System.Security.Cryptography.X509Certificates;
+using Microsoft.VisualBasic;
 
 class Program
 {
@@ -47,9 +50,55 @@ class Program
         // {
         //     Console.WriteLine("less than both y and z");
         // }
-        string valueInText = "42";
-        int number = int.Parse(valueInText);
+        // string valueInText = "42";
+        // int number = int.Parse(valueInText);
+
+        // var makes = new List<string>();
+        // var model = new List<string>();
+        // var year = new List<string>();
+        // var mpg = new List<string>();
+
+        var car = new Car();
+
+        car._model = "Civic";
+        car._make = "Honda";
+        car._milesPerGallon = 30;
+        car._tankSize = 5;
+
+        var person = new Person();
+        person.name = "sue";
+        person.phone = "333-3333";
+
+        car.owner = person;
+
+        var person1 = new Person();
+        person1.name = "joe";
+        person1.phone = "444-4444";
+
+
+        var car2 = new Car();
+        car2._model = "myModel";
+        car2._make = "myMake";
+        car2._milesPerGallon = 5;
+        car2._tankSize = 30;
+
+        car2.owner = person1;
+
+
+
+        // Car car1 = new Car();
+        // car1._model = "Civic";
+        // car1._make = "Honda";
+        // car1._milesPerGallon = 30;
+        // car1._tankSize = 5;
+
+        // cars.Add(car1);
+
+        car.Display();
+        car2.Display();
+        // car1.Display();
 
 
     }
 }
+
