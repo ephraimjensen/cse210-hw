@@ -5,7 +5,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Console.WriteLine("Hello Learning02 World!");
+        Console.WriteLine("Hello Learning02 World!");
+
+        Console.Clear();
 
         var job1 = new Job();
         job1._jobTitle = "Software Engineer";
@@ -30,6 +32,7 @@ class Program
         myResume._jobs.Add(job2);
 
         myResume.Display();
+
 
 
 
