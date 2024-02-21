@@ -1,6 +1,6 @@
 public class Word
 {
-    string letters;
+    private string letters;
     public bool isVisible;
 
     public Word(string letters, bool isVisible = true)
