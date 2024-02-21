@@ -1,7 +1,7 @@
 public class Word
 {
     private string letters;
-    public bool isVisible;
+    private bool isVisible;
 
     public Word(string letters, bool isVisible = true)
     {
@@ -12,6 +12,18 @@ public class Word
     public void Hide()
     {
         isVisible = false;
+    }
+
+    public bool CheckIfVisible()
+    {
+        if (isVisible)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 
     public string Display()

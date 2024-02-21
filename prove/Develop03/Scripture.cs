@@ -46,7 +46,7 @@ public class Scripture
         foreach (Word word in words)
         {
             counter += 1;
-            if (word.isVisible == false)
+            if (word.CheckIfVisible() == false)
             {
                 hiddenCounter += 1;
             }
