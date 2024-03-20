@@ -1,0 +1,4 @@
+0
+SimpleGoal_/-=++=-\_simple title_/-=++=-\_simple desc_/-=++=-\_100_/-=++=-\_False
+EternalGoal_/-=++=-\_eternal title_/-=++=-\_eternal desc_/-=++=-\_100_/-=++=-\_False
+ChecklistGoal_/-=++=-\_check title_/-=++=-\_check desc_/-=++=-\_100_/-=++=-\_1000_/-=++=-\_3_/-=++=-\_0
