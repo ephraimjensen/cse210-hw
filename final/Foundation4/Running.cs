@@ -4,8 +4,8 @@ class Running : Activity
     {
         this.distance = distance;
     }
-    float distance;
-    string activityName = "Running";
+    private float distance;
+    private string activityName = "Running";
 
     override public float GetDistance()
     {

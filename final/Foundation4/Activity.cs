@@ -1,5 +1,3 @@
-using System.IO.Pipes;
-using System.Runtime.CompilerServices;
 
 class Activity
 {
@@ -8,8 +6,8 @@ class Activity
         this.date = date;
         this.duration = duration;
     }
-    string date;
-    float duration;
+    private string date;
+    private float duration;
 
     public float GetDuration()
     {
@@ -40,4 +38,5 @@ class Activity
         string summaryString = $"{GetDate()} ACTIVITY NAME HERE ({GetDuration()} minuites)- Distance {GetDistance()} miles, Speed {GetSpeed()} mph, Pace {GetPace()} min per mile";
         return summaryString;
     }
+
 }

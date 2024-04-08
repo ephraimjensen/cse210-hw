@@ -4,8 +4,8 @@ class Swimming : Activity
     {
         this.laps = laps;
     }
-    float laps;
-    string activityName = "Swimming";
+    private float laps;
+    private string activityName = "Swimming";
 
     override public float GetDistance()
     {

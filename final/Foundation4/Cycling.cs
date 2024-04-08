@@ -6,8 +6,8 @@ class Cycling : Activity
     {
         this.speed = speed;
     }
-    float speed;
-    string activityName = "Cycling";
+    private float speed;
+    private string activityName = "Cycling";
 
     override public float GetSpeed()
     {
