@@ -7,8 +7,8 @@ class Customer
         this.name = name;
         this.address = address;
     }
-    string name;
-    Address address;
+    private string name;
+    private Address address;
     public string GetName()
     {
         return name;

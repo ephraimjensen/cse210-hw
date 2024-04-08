@@ -6,7 +6,7 @@ class Reception : Event
 
     }
 
-    string rsvpEmail;
+    private string rsvpEmail;
 
 
     public string ReturnFullDetailsPackage()

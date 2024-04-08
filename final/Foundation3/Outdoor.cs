@@ -6,7 +6,7 @@ class Outdoor : Event
 
     }
 
-    string forecast;
+    private string forecast;
 
 
     public string ReturnFullDetailsPackage()

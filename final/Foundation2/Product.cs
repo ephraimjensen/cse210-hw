@@ -7,10 +7,10 @@ class Product
         this.quantity = quantity;
         this.id = id;
     }
-    string name;
-    float price;
-    int quantity;
-    int id;
+    private string name;
+    private float price;
+    private int quantity;
+    private int id;
     public string GetName()
     {
         return name;

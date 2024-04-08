@@ -11,11 +11,11 @@ class Event
 
 
     }
-    string title;
-    string description;
-    string date;
-    string time;
-    Address address;
+    private string title;
+    private string description;
+    private string date;
+    private string time;
+    private Address address;
 
 
     public string ReturnStandardDetails()

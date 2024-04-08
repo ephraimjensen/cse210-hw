@@ -6,8 +6,8 @@ class Lecture : Event
         this.maxCapacity = maxCapacity;
 
     }
-    string speaker;
-    int maxCapacity;
+    private string speaker;
+    private int maxCapacity;
     public string GetEventType()
     {
         return "Lecture";

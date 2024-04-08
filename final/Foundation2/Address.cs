@@ -8,10 +8,10 @@ class Address
         this.country = country;
 
     }
-    string street;
-    string city;
-    string state;
-    string country;
+    private string street;
+    private string city;
+    private string state;
+    private string country;
     public bool IsInUSA()
     {
         if (country == "USA")

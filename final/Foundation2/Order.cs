@@ -7,8 +7,8 @@ class Order
         this.products = products;
         this.customer = customer;
     }
-    List<Product> products;
-    Customer customer;
+    private List<Product> products;
+    private Customer customer;
     public float CalculateTotalCost()
     {
         float total = 0;

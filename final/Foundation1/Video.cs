@@ -6,9 +6,9 @@ class Video
         this.author = author;
         this.length = length;
     }
-    string title;
-    string author;
-    int length;
+    private string title;
+    private string author;
+    private int length;
     public List<Comment> comments;
     public string DisplayTitle()
     {

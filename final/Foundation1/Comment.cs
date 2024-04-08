@@ -5,8 +5,8 @@ class Comment
         this.name = name;
         this.text = text;
     }
-    string name;
-    string text;
+    private string name;
+    private string text;
     public string DisplayComment()
     {
         return $"{name}: '{text}'";
